@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    opacity: 1;
+    transition: .5s;
+    animation: animate 5s infinite;
+}
+h3{
+    text-align: center;
+}
+
+@keyframes animate{
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: .5;
+    }
+    50%{
+        opacity: .3;
+    }
+    75%{
+        opacity: .5;
+    }
+    100%{
+        opacity: 1;
+    }
+}

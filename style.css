@@ -42,6 +42,33 @@ h3{
     text-align: center;
 }
 
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.textBx{
+    width: 80%;
+    border: 1px solid black;
+    padding: 10px 40px;
+    position: relative;
+    margin-bottom: 20px;
+    
+
+}
+.textBx .cornerText{
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    top: -10px;
+    left: -15px;
+}
+
 @keyframes animate{
     0%{
         opacity: 1;

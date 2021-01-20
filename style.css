@@ -1,7 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 50px;
+    border-bottom: 1px solid #000;
+}
+
+.logo img{
+    height: 58px;
+    width: 58px;
+}
+
+.text{
+    padding: 2px 20px;
+}
+.text h4{
+    font-size: 1.5rem;
+}
+.text h5{
+    text-align: center;
+    margin-top: -2px;
 }
 
 h1{
@@ -23,7 +50,7 @@ h3{
         opacity: .5;
     }
     50%{
-        opacity: .3;
+        opacity: 0;
     }
     75%{
         opacity: .5;

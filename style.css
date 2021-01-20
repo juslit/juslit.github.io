@@ -59,3 +59,28 @@ h3{
         opacity: 1;
     }
 }
+
+
+@media only screen and (max-width:426px){
+    
+    .text{
+        align-items: center;
+        justify-content: center;
+        padding: 2px 20px;
+    }
+    
+    .text h4{
+        font-size: 1rem;
+        margin-top: 4px;
+    }
+}
+@media only screen and (max-width:352px){
+    .text h5{
+        margin-top: -2px;
+        font-size: .7rem;
+    }
+    .text h4{
+        font-size: .9rem;
+        margin-top: 4px;
+    }
+}

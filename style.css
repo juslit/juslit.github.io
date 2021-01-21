@@ -83,7 +83,13 @@ section{
     top: -10px;
     left: -15px;
 }
-
+.blink{
+    color: red;
+    opacity: 1;
+    text-align: center;
+    animation: animate 5s infinite;
+    margin-bottom: 5px;
+}
 @keyframes animate{
     0%{
         opacity: 1;

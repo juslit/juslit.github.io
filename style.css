@@ -55,13 +55,26 @@ h1{
 h3{
     text-align: center;
 }
+.mlink{ 
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    color: #fff;
+    background: #000;
+}
+
+.mlink a{
+    color:#fff;
+    font-weight: 500;
+}
 
 section{
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
-    margin-top: 100px;
+    padding: 120px 50px;
+    background: #f7f7f7;
 }
 .textBx{
     width: 80%;

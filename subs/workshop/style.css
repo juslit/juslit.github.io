@@ -53,7 +53,7 @@ nav.sticky{
 .container{
     width: 100%;
     min-height: 100vh;
-    padding: 120px 50px;
+    padding: 120px 50px 20px;
     background: #f7f7f7;
     display: flex;
     flex-direction: column;
@@ -62,8 +62,9 @@ nav.sticky{
 
 .container .cards{
     width: 80%;
-    height: 100px;
+    max-height: 150px;
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     padding: 15px 25px;
@@ -75,4 +76,29 @@ nav.sticky{
 a{  
     color: blue;
     text-decoration: none;
+}
+
+
+@media only screen and (max-width:426px){
+    
+    .text{
+        align-items: center;
+        justify-content: center;
+        padding: 2px 20px;
+    }
+    
+    .text h4{
+        font-size: 1rem;
+        margin-top: 4px;
+    }
+}
+@media only screen and (max-width:352px){
+    .text h5{
+        margin-top: -2px;
+        font-size: .7rem;
+    }
+    .text h4{
+        font-size: .9rem;
+        margin-top: 4px;
+    }
 }

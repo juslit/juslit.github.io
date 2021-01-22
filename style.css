@@ -59,13 +59,25 @@ h3{
     padding: 5px 15px;
     margin-bottom: 10px;
     border: 1px solid #000;
-    color: #fff;
-    background: #000;
+    color: #000;
+    background: #fff;
+    transition: all .5s ease-in-out;
 }
 
-.mlink a{
-    color:#fff;
-    font-weight: 500;
+.mlink:hover{
+    background: #000;
+    color: #fff;
+}
+
+.mlink:hover h3 a{
+    color: #fff;
+}
+
+.mlink h3 a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+    transition: all .5s ease-in-out;
 }
 
 section{

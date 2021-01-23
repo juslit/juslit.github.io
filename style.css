@@ -34,6 +34,7 @@ a{
 }
 
 .text{
+    text-align: center;
     padding: 2px 20px;
 }
 .text h4{
@@ -44,94 +45,52 @@ a{
     margin-top: -2px;
 }
 
-h1{
-    text-align: center;
-    margin: 10px 0;
-    color: red;
-    opacity: 1;
-    transition: .5s;
-    animation: animate 5s infinite;
-}
-h3{
-    text-align: center;
-}
-.mlink{ 
-    padding: 5px 15px;
-    margin-bottom: 15px;
-    border: 1px solid #000;
-    color: #000;
-    background: #fff;
-    transition: all .5s ease-in-out;
-}
-
-.mlink:hover{
-    background: #000;
-    color: #fff;
-}
-
-.mlink:hover h3 a{
-    color: #fff;
-}
-
-.mlink h3 a{
-    text-decoration: none;
-    color: #000;
-    font-weight: 800;
-    transition: all .5s ease-in-out;
-}
-
 section{
     display: flex;
     flex-direction: column;
     width: 100%;
+    min-height: 100vh;
     align-items: center;
     padding: 120px 50px 20px;
     background: #f7f7f7;
 }
-.textBx{
-    width: 80%;
-    border: 1px solid black;
-    padding: 10px 40px;
-    position: relative;
-    margin-bottom: 20px;
-    
 
+.cards{
+    flex: 1;
+    width: 80%;
+    max-height: 150px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    padding: 20px 25px 10px;
+    margin-bottom: 15px;
+    background: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
-.textBx .cornerText{
-    position: absolute;
-    width: 60px;
-    height: 20px;
+
+.btn {
+    margin: 15px 0 0;
+    padding: 8px 20px;
+    border-radius: 20px;
+    background: #fff;
+    border: 2px solid #000;
+    transition: .3s ease-in;
+}
+.btn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease-in;
+}
+
+.btn:hover{
     background: #000;
+}
+
+.btn:hover a{
+    text-decoration: none;
     color: #fff;
-    text-align: center;
-    justify-content: center;
-    top: -10px;
-    left: -15px;
 }
-.blink{
-    color: red;
-    opacity: 1;
-    text-align: center;
-    animation: animate 5s infinite;
-    margin-bottom: 5px;
-}
-@keyframes animate{
-    0%{
-        opacity: 1;
-    }
-    25%{
-        opacity: .5;
-    }
-    50%{
-        opacity: 0;
-    }
-    75%{
-        opacity: .5;
-    }
-    100%{
-        opacity: 1;
-    }
-}
+
+
 
 
 @media only screen and (max-width:426px){
